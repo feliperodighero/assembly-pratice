@@ -28,9 +28,9 @@ STORE Multiplicador
 	// T1:	MBR <- M[MAR]
 	// T2:	IR <- MBR
 	// T3:	PC <- PC + 1
-  // T4:	MAR <- IR[11-0]
-  // T5:	MBR <- AC
-  // T6:	M[MAR] <- MBR
+ 	// T4:	MAR <- IR[11-0]
+  	// T5:	MBR <- AC
+  	// T6:	M[MAR] <- MBR
 
 INICIO, LOAD Resultado
 	// T0:	MAR <- PC
