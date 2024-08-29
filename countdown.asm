@@ -22,9 +22,9 @@ INICIO, LOAD X
 	// T1:	MBR <- M[MAR]
 	// T2:	IR <- MBR
 	// T3: 	PC <- PC + 1
-  // T4: 	MAR <- IR[11-0]
-  // T5: 	MBR <- M[MAR]
-  // T6: 	AC <- MBR
+  	// T4: 	MAR <- IR[11-0]
+  	// T5: 	MBR <- M[MAR]
+  	// T6: 	AC <- MBR
 
 SUBT Sub
 	// T0:	MAR <- PC
